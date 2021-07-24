@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer(1,"Engin","Demiroð",1985,12345678901L));
+		customerManager.save(new Customer(1,"NAME","LAST NAME",1985,"Nationality Id"));
 		
 	}
 }

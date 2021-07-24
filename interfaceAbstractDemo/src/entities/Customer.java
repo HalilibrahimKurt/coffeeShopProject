@@ -7,9 +7,9 @@ public class Customer implements IEntity {
 	public String firstName;
 	public String lastName;
 	public int dateOfBirth;
-	public long nationalityId;
+	public String nationalityId;
 
-	public Customer(int id, String firstName, String lastName, int dateOfBirth, long nationalityId) {
+	public Customer(int id, String firstName, String lastName, int dateOfBirth, String nationalityId) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
